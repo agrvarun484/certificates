@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+
+.navigate{
+    height: 180px;
+    background-color: rgb(106, 252, 203);
+    }
+
+.image1{
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+@media (min-width: 1000px) {
+    .image1{
+        width: 130px;
+    }
+}
+
+.certificate_images{
+    height: 335px;
+    width: 600px;
+    margin: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.long{
+    height: 500px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cert{
+    font-size: 30px;
+    margin-left: 10;
+    margin-top: -100px;
+    margin-left: 500px;
+}
+.cert2{
+    margin-left: 10;
+    margin-top: -8px;
+    margin-left: 550px;
+}
+
+@media (min-width: 900px) {
+    .cert{
+        font-size: 50px;
+    }
+}
+
+footer{
+    height: 280px;
+    background-color: black;
+}
+
+#foot{
+    font-size: 20px;
+    color: rgb(250, 235, 235);
+    text-align: center;
+}
+
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+  }
+  
+  figcaption {
+    background-color: rgb(66, 15, 15);
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  } 
+
+.footer_image1{
+    width: 35px;
+    margin: 10px;
+    margin-top: -140px;
+}
+
+.footer_image2{
+    width: 35px;
+    margin: 10px;
+    margin-top: -95px;
+}
+
+.footer_image3{
+    width: 35px;
+    margin: 10px;
+    margin-top: -50px;
+}
+
+.phone{
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+li{
+    color: rgb(252, 227, 227);
+    margin-left: 20px;
+}
