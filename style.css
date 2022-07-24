@@ -3,13 +3,14 @@ body{
 }
 
 .navigate{
-    height: 300px;
+    height: 400px;
     background-color: rgb(106, 252, 203);
-    }
+    border-radius: 20px;
+}
 
 @media (min-width: 1000px) {
     .navigate{
-        height: 180px;
+        height: 250px;
     }
 }
 
@@ -34,6 +35,16 @@ body{
     
 }
 
+.certificate_images_c1{
+    height: 600px;
+    width: 1000px;
+    margin: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 
 .long{
     height: 540px;
@@ -46,18 +57,27 @@ body{
 .cert{
     margin-left: 10;
     margin-top: -100px;
-    margin-left: 500px;
+    margin-left: 400px;
 }
 
 .cert2{
-    margin-left: 10;
+    margin-left: 12;
     margin-top: -8px;
     margin-left: 550px;
+    font-size: 40px;
 }
 
 @media (min-width: 900px) {
     .cert{
-        font-size: 50px;
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 900px) {
+    .cert2{
+        margin-left: 10;
+        margin-top: -8px;
+        margin-left: 550px;
     }
 }
 
@@ -86,17 +106,18 @@ figure {
 }
   
 figcaption {
-    background-color: rgb(66, 15, 15);
+    background-color: rgb(80, 25, 25);
     color: white;
     font-style: italic;
     padding: 2px;
     text-align: center;
-    height: 45px;
+    height: 50px;
+    font-size: 20px;
 }
 
 @media (min-width: 1000px){
     figcaption{
-        height: 30px;
+        height: 35px;
     }
 }
 
